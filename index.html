@@ -6,6 +6,18 @@
   <title>Biodata ZALDI</title>
   <link href="css/style.css" rel="stylesheet">
   <style>
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .blink {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(20, 9, 239);
+      animation: blink 1.5s infinite;
+    }
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
@@ -40,7 +52,7 @@
       <p><strong>Email :</strong> michael@gmail.com</p>
       <p><strong>Hobi :</strong> Rebahan, Game</p>
     </div>
-<h3>TEKAN SOSMED DIBAWAH JIKA INGIN BERKUNJUNG!!</h3>
+<h3 class="blink">TEKAN SOSMED DIBAWAH JIKA INGIN BERKUNJUNG!!</h3>
   <div class="s">
       <a href="https://www.instagram.com/zfynn_z/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50" height="50">
