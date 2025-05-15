@@ -6,12 +6,12 @@
     .container {
       max-width: 800px;
       margin: 60px auto;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       border-radius: 16px;
       padding: 40px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
       text-align: center;
-      
+      background: #fff;
     }
 
     .profile-img {
